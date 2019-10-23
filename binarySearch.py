@@ -11,3 +11,4 @@ def binarySearchHelper(array,target,left,right):
 		return binarySearchHelper(array,target,left,middle-1)
 	else:
 		return binarySearchHelper(array,target,middle+1,right)
+binarySearch([0, 1, 21, 33, 45, 45, 61, 71, 72, 73], 33)
